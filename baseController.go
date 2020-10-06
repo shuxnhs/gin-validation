@@ -1,4 +1,4 @@
-package controllers
+package validation
 
 import (
 	"github.com/asaskevich/govalidator"
