@@ -114,6 +114,6 @@ func (e *ExampleController) Ping(ctx *gin.Context) {
 
 2. 不满足rule规则in(string1|string2|...|stringN)
 
-![](http://cd7.yesapi.net/89E670FD80BA98E7F7D7E81688123F32_20201006215353_b8a822b5aa1ee7664256a024404946da.png)
+![](http://cd7.yesapi.net/89E670FD80BA98E7F7D7E81688123F32_20201006215914_a65cdc59ede438c6e4ba7eeb4f045e68.png)
 
 
