@@ -105,3 +105,15 @@ func (e *ExampleController) Ping(ctx *gin.Context) {
 > + "latitude":   IsLatitude,
 > + "longitude":  IsLongitude,
 > + "IMEI":       IsIMEI,
+
+## 示例截图
+
+1.  object_name的规则required为true但未传参
+
+![](http://cd7.yesapi.net/89E670FD80BA98E7F7D7E81688123F32_20201006215021_a61aab57717122b96bff2e54c342213f.png)
+
+2. 不满足rule规则in(string1|string2|...|stringN)
+
+![](http://cd7.yesapi.net/89E670FD80BA98E7F7D7E81688123F32_20201006215353_b8a822b5aa1ee7664256a024404946da.png)
+
+
