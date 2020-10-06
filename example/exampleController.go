@@ -1,12 +1,13 @@
-package controllers
+package main
 
 import (
 	"github.com/gin-gonic/gin"
+	validation "github.com/shuxnhs/gin-validation"
 	"github.com/shuxnhs/gin-validation/formatter"
 )
 
 type ExampleController struct {
-	BaseController
+	validation.BaseController
 }
 
 func (e *ExampleController) Ping(ctx *gin.Context) {
