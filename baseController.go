@@ -1,4 +1,4 @@
-package validation
+package gin_validation
 
 import (
 	"github.com/asaskevich/govalidator"
