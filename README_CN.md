@@ -71,7 +71,7 @@ func (e *ExampleController) Ping(ctx *gin.Context) {
     
     + name：请求参数名称
     
-    + type：参数类型，主要有(int -> formatter.ValidTypeInt, bool -> formatter.ValidTypeBool, float64 -> formatter.ValidTypeFloat
+    + type：参数类型，主要有(int -> formatter.ValidTypeInt, bool -> formatter.ValidTypeBool, float64 -> formatter.ValidTypeFloat       
                          string->formatter.ValidTypeString,  strings->formatter.ValidTypeStrings map->formatter.ValidTypeMap)
     
     + required: bool类型，true表示必传，false表示可传
